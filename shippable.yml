@@ -6,8 +6,9 @@ jdk:
 after_success:
 - mvn clean
 - mvn test
+
 notifications:
-email:
-recipients:
-- j.oloughlin6@nuigalway.ie
+    email:
+        recipients:
+            - j.oloughlin6@nuigalway.ie
 
